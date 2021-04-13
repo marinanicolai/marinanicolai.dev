@@ -5,15 +5,44 @@ summary: In this article.
 coverImage: ./props.png
 ---
 
+One of the most important topics in React is **props** or **properties**.
+_Props are for components the same as what variables are for functions!_
+Let me repeat it again: _Props are for components the same as what variables are for functions!_
+Let us take a look at one example:
+
+- Dried Apricots with 381 Calories gives your body 6.3mg iron per 100g.
+- White Beans with 249 Calories gives your body 6.6mg iron per 100g.
+- Spinach with 41 Calories gives your body 6.4mg iron per 100g.
+
+#### In html if you wish to write this list, you would type the following code:
+
+```html
+<ul>
+  <li>Dried Apricots with 381 Calories gives your body 6.3mg iron per 100g.</li>
+  <li>White Beans with 249 Calories gives your body 6.6mg iron per 100g.</li>
+  <li>Spinach with 41 Calories gives your body 6.4mg iron per 100g.</li>
+</ul>
+```
+
+However if we take a look at the list we can see the repetition.
+
+- **Product** (_Dried Apricots_) with **calories** (_381_) Calories gives your body **iron level **(_6.3mg_) iron per 100g.
+- **Product** (_White Beans_) with **calories** (_249_) Calories gives your body **iron level ** (_6.6mg_) iron per 100g.
+- **Product** (_Spinach_) with **calories** (_41_) Calories gives your body **iron level **(_6.4mg_) iron per 100g.
+
+Let's create a function which can help us describe each of the products without repetition.
+
 ```jsx {7}
-function DogInfo({ dogId }) {
-  const [dog, setDog] = useState(null);
-  // imagine you also have loading/error states. omitting to save space...
-
-  useEffect(() => {
-    getDog(dogId).then((d) => setDog(d));
-  }, [dogId]); // ✅
-
-  return <div>{/* render the dog info here */}</div>;
+function Product(props) {
+  return (
+    <li>
+      {props.name} with {props.calories} Calories gives your body{' '}
+      {props.ironLevel} iron per 100g.
+    </li>
+  );
 }
 ```
+
+As you can see with only one line of code in JSX we can replace **three** lines of code in HTML.
+
+CodePen Finished Code: [here](https://codepen.io/marinanicolai/pen/GRrxPKV?editors=1010)

@@ -7,8 +7,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import Layout from '~layouts/mainLayout';
 import ProfileImage from '~assets/avatar.jpg';
 import { useSiteMetadata } from '~hooks/useSiteMetadata';
-import { getGitHubEditURL } from '~helpers/getGithubEditUrl';
-import { getTwitterShareUrl } from '~helpers/getTwitterShareUrl';
+
 
 const BlogPostTemplate = ({ data }) => {
   const {
@@ -58,12 +57,12 @@ const BlogPostTemplate = ({ data }) => {
               width={28}
               height={28}
               src={ProfileImage}
-              alt="Braydon Nicolai"
+              alt="Marina Nicolai"
             />
             <p className="text-sm text-coolGray-600 dark:text-coolGray-400 ml-2">
               <a
                 className="text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
-                href="https://twitter.com/BraydonNicolai"
+                href="https://twitter.com/MarinaNicolai"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -90,25 +89,7 @@ const BlogPostTemplate = ({ data }) => {
         </div>
        
         <div className="text-coolGray-600 dark:text-coolGray-400 italic flex justify-start md:justify-end space-x-3">
-          <span>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={getTwitterShareUrl(slug)}
-            >
-              Discuss on Twitter
-            </a>
-          </span>
-          <span>{` • `}</span>
-          <span>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={`${getGitHubEditURL(slug)}`}
-            >
-              Edit on GitHub
-            </a>
-          </span>
+          
         </div>
       </Layout>
     </>
