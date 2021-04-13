@@ -24,7 +24,7 @@ export const timelineContent = [
           'Return back to school to obtain a degree in Computer Science from George Mason University.',
       },
       {
-        itemTitle: ' blog ✏️',
+        itemTitle: 'Study ✏️',
         itemDescription:
           'I was able to study and complete independently certificates from udemy focued on: React and React Hooks.',
       }    
