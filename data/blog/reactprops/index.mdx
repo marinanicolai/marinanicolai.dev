@@ -1,0 +1,19 @@
+---
+title: React Props
+publishedAt: 2021-04-13
+summary: In this article.
+coverImage: ./props.png
+---
+
+```jsx {7}
+function DogInfo({ dogId }) {
+  const [dog, setDog] = useState(null);
+  // imagine you also have loading/error states. omitting to save space...
+
+  useEffect(() => {
+    getDog(dogId).then((d) => setDog(d));
+  }, [dogId]); // ✅
+
+  return <div>{/* render the dog info here */}</div>;
+}
+```

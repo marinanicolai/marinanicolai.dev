@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* Portfolio Styles */
+
+.sticky-nav {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.social-icons {
+  height: auto;
+  position: fixed;
+  top: 50vh;
+  right: 30px;
+  transform: translateY(-50%);
+}
+
+.toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.toggle-mode {
+  height: auto;
+  position: fixed;
+  top: 30px;
+  right: 32px;
+}
+
+/* dark background color that displays on content under the svg pattern */
+.dark .paint__wrapper {
+  background-color: #1e293c;
+}
+
+/* the dark svg pattern */
+.dark .paint__wrapper-pattern {
+  background-image: url("../assets/brush_strokes_dark.svg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* light background color that displays on content under the svg pattern */
+.light .paint__wrapper {
+  background-color: #f3f4f6;
+}
+
+/* the light svg pattern */
+.light .paint__wrapper-pattern {
+  background-image: url("../assets/brush_strokes_light.svg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
