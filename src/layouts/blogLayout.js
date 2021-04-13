@@ -6,7 +6,6 @@ import dayjs from 'dayjs';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import Layout from '~layouts/mainLayout';
 import ProfileImage from '~assets/avatar.jpg';
-import NewsletterSection from '~components/newsletter';
 import { useSiteMetadata } from '~hooks/useSiteMetadata';
 import { getGitHubEditURL } from '~helpers/getGithubEditUrl';
 import { getTwitterShareUrl } from '~helpers/getTwitterShareUrl';
@@ -89,9 +88,7 @@ const BlogPostTemplate = ({ data }) => {
         <div className="text-coolGray-600 dark:text-coolGray-400 prose">
           <MDXRenderer className="prose">{body}</MDXRenderer>
         </div>
-        <div className="mt-8 mb-4">
-          <NewsletterSection />
-        </div>
+       
         <div className="text-coolGray-600 dark:text-coolGray-400 italic flex justify-start md:justify-end space-x-3">
           <span>
             <a
