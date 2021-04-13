@@ -3,7 +3,6 @@ import SEO from 'react-seo-component';
 import Layout from '~layouts/mainLayout';
 import WelcomeSection from '~components/welcome';
 import ProjectsSection from '~components/projects';
-import MusicSection from '~components/music';
 import BlogSection from '~components/blog';
 import { useSiteMetadata } from '~hooks/useSiteMetadata';
 
@@ -35,7 +34,6 @@ export default function Home() {
         <WelcomeSection />
         <BlogSection />
         <ProjectsSection />
-        <MusicSection />
       </Layout>
     </>
   );

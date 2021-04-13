@@ -55,7 +55,7 @@ export const timelineContent = [
     yearTitle: '2017',
     timelineItems: [      
       {
-        itemTitle: ' blog ✏️',
+        itemTitle: ' Study ✏️',
         itemDescription:
           'I was able to study and complete independently certificates from udemy focued on: PHP, WordPress Theme & Plugin Development.',
       }
@@ -65,7 +65,7 @@ export const timelineContent = [
     yearTitle: '2016',
     timelineItems: [      
       {
-        itemTitle: ' blog ✏️',
+        itemTitle: ' Study ✏️',
         itemDescription:
           'I was able to study and complete independently certificates from udemy focued on: HTML, CSS, JavaScript and Bootstrap.',
       }

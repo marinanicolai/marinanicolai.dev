@@ -24,15 +24,6 @@ const AboutSection = () => (
         >
           CodePen creations,
         </a>{' '}
-        mobile apps,{' '}
-        <a
-          className="underline  text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300"
-          href="https://anchor.fm/florida-man"
-          target="_blank"
-          rel="noreferrer"
-        >
-          podcasts,
-        </a>{' '}
         or tinkering around in Photoshop or Illustrator.
       </p>
       <p>

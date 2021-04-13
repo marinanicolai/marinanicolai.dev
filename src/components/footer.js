@@ -52,52 +52,8 @@ const Footer = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
-                    to="/toolbox"
-                  >
-                    Toolbox
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-coolGray-900 dark:text-white tracking-wider uppercase">
-                Extra
-              </h3>
-              <ul className="mt-4 space-y-4">
-                <li>
-                  <Link
-                    className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
-                    to="/newsletter"
-                  >
-                    Newsletter
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
-                    to="/changelog"
-                  >
-                    Changelog
-                  </Link>
-                </li>
-
-                <li>
                   <a
-                    href="https://www.notion.so/9f35162787e0448094188b66304cf9f6?v=1b9c4e146edf46148fe7b1c5346cbea4"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
-                  >
-                    Snippets
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
+                    href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2610ad01-bab0-4840-992c-08405ce9d4ee/MNicolaiApril.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210413T150418Z&X-Amz-Expires=86400&X-Amz-Signature=d85f4067356695d9b64f4faf780308b0f2fe5f30571dabcc6d910f22bb87ec71&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MNicolaiApril.pdf%22"
                     target="_blank"
                     rel="noreferrer"
                     className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
@@ -107,10 +63,10 @@ const Footer = () => (
                 </li>
               </ul>
             </div>
+            </div>
           </div>
           <div className="md:grid md:grid-cols-2 md:gap-8" />
         </div>
-      </div>
     </div>
 
     <div className="mt-2 py-8 px-4 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between">

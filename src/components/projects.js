@@ -1,5 +1,5 @@
 import React from 'react';
-import BundleImage from '~assets/bundleappsmacbookpro.png';
+import FirstProjectImage from '~assets/first.png';
 import ToastItem from '~helpers/toast';
 
 const ProjectsSection = () => (
@@ -17,84 +17,23 @@ const ProjectsSection = () => (
         <div className="p-6 md:p-10 flex flex-col-reverse ">
           <div className="mt-8 md:max-w-lg">
             <p className="text-2xl lg:text-3xl font-extrabold text-coolGray-900 dark:text-white mb-2">
-              bundleapps.io
+             project one
             </p>
             <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6 mb-3">
-              A startup consultant company needed a website spun up quickly in
-              order to publish their first iOS application. Built with Tailwind
-              UI, I was able to put something together for them by the end of
-              the day.
+            Description
             </p>
-            <a href="https://bundleapps.io/" target="_blank" rel="noreferrer">
+            <a href="#" target="_blank" rel="noreferrer">
               <div className="inline-flex text-base sm:text-lg lg:text-base xl:text-lg font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-orange-600 hover:text-orange-700 dark:text-orange-500 dark:hover:text-orange-400 mt-2">
                 <p>Visit -></p>
               </div>
             </a>
           </div>
           <div>
-            <img className="select-none" src={BundleImage} alt="bundleapps" />
+            <img className="select-none" src={FirstProjectImage} alt="firstprojectimg" />
           </div>
         </div>
-      </li>
-      <li className="bg-coolGray-100 dark:bg-blueGray-800 rounded-3xl relative overflow-hidden">
-        <div className="p-6 md:p-10">
-          <div className="mt-9">
-                  <p className="text-2xl lg:text-3xl font-extrabold text-coolGray-900 dark:text-white mb-2">
-              officeapi.dev
-            </p>
-            <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6 mb-3">
-              A fun side-project originally built with Spring Boot and MonogDb,
-              rebuilt with with Node.js, Express, Mongoose and MongoDb. Deployed
-              with Heroku.
-            </p>
-            <a
-              href="https://www.officeapi.dev/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="inline-flex text-base sm:text-lg lg:text-base xl:text-lg font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-orange-600 hover:text-orange-700 dark:text-orange-500 dark:hover:text-orange-400 mt-2">
-                <p>Visit -></p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li className="bg-coolGray-100 dark:bg-blueGray-800 rounded-3xl overflow-hidden p-6 md:p-10 flex flex-col items-center">
-        <div className="flex-grow w-full space-y-2">
-          <ToastItem
-            title="Hi there!"
-            description="Try dismissing me and see what
-              happens..."
-            icon="question"
-            type="success"
-          />
-          <ToastItem
-            title="Guess what?!"
-            description="NgLimeade makes notifications super easy!"
-            icon="exclamation"
-            type="info"
-          />
-        </div>
-        <div className="mt-8">
-          <p className="text-2xl lg:text-3xl font-extrabold text-coolGray-900 dark:text-white mb-2">
-            NgLimeade
-          </p>
-          <p className="text-coolGray-500 dark:text-coolGray-400 rose leading-6 mb-3">
-            NgLimeade is an Angular Toast Library that aims to get toast
-            notifications up and running in less than a minute! No joke! Check
-            it out for yourself!
-          </p>
-          <a
-            href="https://www.npmjs.com/package/ng-limeade"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="inline-flex text-base sm:text-lg lg:text-base xl:text-lg font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-orange-600 hover:text-orange-700 dark:text-orange-500 dark:hover:text-orange-400 mt-2">
-              <p>Visit -></p>
-            </div>
-          </a>
-        </div>
-      </li>
+      </li>   
+     
     </ul>
   </section>
 );
