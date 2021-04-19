@@ -1,0 +1,34 @@
+---
+title: State in React
+publishedAt: 2021-04-19
+summary: In this article I am going to explain the state in React.
+coverImage: ./state-vs-props.png
+---
+
+One of the most important topics in React is **state**. State consists
+of any data your application needs to know about, that **can** change
+over lifetime of the component. We should always try to make our state
+as simple as possible and minimize the number of stateful components.
+Let's create an user component with message state:
+
+```jsx {}
+class User extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      message: ' Welcome to React world'
+    };
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+      </div>
+    );
+  }
+}
+```
+
+State is similar to props, but it is **private** and **fully** controlled by the component.
+It is not accessible to any component other than the one that owns and sets it.
