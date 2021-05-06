@@ -12,7 +12,7 @@ const siteMetadata = {
   title: 'Marina Nicolai',
   titleTemplate: 'Portfolio',
   description: 'Senior Full Stack Engineer, DOM Artist and TDD enthusiast.',
-  image: '/images/ProfileSEOBanner.png',
+  image: '/images/SEOBanner.png',
   siteUrl: 'https://marinanicolai.dev',
   siteLanguage: `en-US`,
   siteLocale: `en_us`,
