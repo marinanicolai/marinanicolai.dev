@@ -1,0 +1,22 @@
+---
+title: React Element
+publishedAt: 2021-04-13
+summary: In this article I am going to explain the React element definition with few examples.
+coverImage: ./element.png
+---
+
+The basic building block in React is the React element.Let's look at one example
+of an Vanila React without the Babel compliler.
+
+```
+const hello = React.createElement(
+    'p',
+    { className: 'featured' },
+    'Hello');
+```
+
+However if we were to pass this object into the ReactDOM library, we would get something like this:
+
+```
+<p class="featured">Hello</p>
+```
