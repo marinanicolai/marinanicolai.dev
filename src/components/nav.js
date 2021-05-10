@@ -20,6 +20,9 @@ const Nav = () => (
         <Link className="cursor-pointer" to="/blog">
           Blog
         </Link>
+        <Link className="cursor-pointer" to="/cert">
+          Certifications
+        </Link>
         <Toggle />
       </div>
     </div>
