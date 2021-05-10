@@ -1,0 +1,84 @@
+---
+title: React Component
+publishedAt: 2021-05-10
+summary: In this article I am going to explain the React component definition and will explain the types.
+coverImage: ./element.png
+---
+
+> Components are the building blocks of any React app and a typical React app will have many of these. Simply put, a component is a JavaScript class or function that optionally accepts inputs i.e. properties(props) and returns a React element that describes how a section of the UI (User Interface) should appear.
+
+Let's look at one example of an Vanila React without the Babel compliler.
+
+```
+function List() {
+      return (
+        React.createElement("ul", { className: "react-links", id: "top" },
+          React.createElement("li", {},
+            React.createElement("a", { href: "https://reactjs.org/docs" }, "React Docs")
+          ),
+          React.createElement("li", {},
+            React.createElement("a", { href: "https://reactjs.org/docs/react-dom.html" }, "ReactDOM Docs")
+          ),
+      )
+    }
+```
+
+However if we were to pass this object into the ReactDOM library, we would get something like this:
+
+```
+<ul class="react-links" id="top">
+    <li>
+        <a href="http://reactjs.org/docs">
+            React Docs
+        </a>
+    </li>
+    <li>
+        <a href="http://reactjs.org/docs/react-dom.html">
+            ReactDOM Docs
+        </a>
+    </li>
+</ul>
+```
+
+In React we mainly have two types of components:
+
+**Functional** Components and **Class** Components. However, there are
+other components in React that goes similar to these two components.
+
+### 1.Functional Components:
+
+> These components are purely presentational and are simply represented by a function that optionally takes props and returns a React element to be rendered to the page.
+
+Generally, it is preferred to use **functional** components whenever possible because of their predictability and conciseness. Since, they are purely presentational, their output is always the same given the same props.
+
+You may find functional components referred to as _stateless, dumb_ or _presentational_ in other literature. All these names are derived from the simple nature that functional components take on.
+
+**Functional** because they are basically functions.
+
+**Stateless** because they do not hold and/or manage state.
+
+**Presentational** because all they do is output UI elements.
+
+Below shows an example of functional component in React:
+
+```jsx
+function Hello() {
+  return <h1> Hello React! </h1>;
+}
+```
+
+### 2.Class Components:
+
+```jsx
+
+```
+
+**3.Higher-Oder Components:**
+
+**4.Dumb Components:**
+
+**5.Smart Components:**
+
+**6.Presentational Components:**
+
+**7.Container Components:**
