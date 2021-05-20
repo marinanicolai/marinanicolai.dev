@@ -79,7 +79,7 @@ const BlogPostTemplate = ({ data }) => {
         </div>
         {frontmatter.coverImage ? (
           <GatsbyImage
-            image={frontmatter.coverImage.childImageSharp.gatsbyImageData}
+            image={frontmatter.coverImage?.childImageSharp?.gatsbyImageData}
             alt="Cover"
             className="mb-8 rounded-lg"
           />
@@ -89,7 +89,6 @@ const BlogPostTemplate = ({ data }) => {
         </div>
        
         <div className="text-coolGray-600 dark:text-coolGray-400 italic flex justify-start md:justify-end space-x-3">
-          
         </div>
       </Layout>
     </>
