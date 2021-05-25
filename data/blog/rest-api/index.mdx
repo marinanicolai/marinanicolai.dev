@@ -6,3 +6,38 @@ coverImage: ./rest-api-img.png
 ---
 
 API stands for Application Program Interface
+
+One of the best analogy is the client-server/waiter/kitchen.So in this example the waiter serves as API request
+and the the customer as a client.
+
+**REST** stands for
+Representational State Transfer.
+Architecture style for designing networked applications.
+Relies on a stateless, client-server protocol, almost always HTTP.
+Treats server objects as resources that can be created or destroyed.
+Can be used by virtualy any programming language.
+
+HTTP Methods:
+GET: Retrive data from a specifies resource
+POST: Submit data to be processed to a specified resource
+PUT: Update a specified resource
+DELETE: Delete a specified resource
+
+HEAD: Same as get but does not return a body
+OPTIONS: Returns the supported HTTP methods
+PATCH: Update partial resorces
+
+Endpoints - the URI/URL where api/service can be accessed by a client application
+
+GET https://mysite.com/api/users
+GET https://mysite.com/api/users/1
+POST https://mysite.com/api/users // will add a user to the request
+PUT https://mysite.com/api/users/1 //will update the user
+DELETE https://mysite.com/api/users/1 //will delete the user
+
+Authentication
+
+Some API's require authentication to use their service. This could be free or paid.
+
+Examples:
+curl -H "Authorization:token OAUTH-TOKEN" https://api.github.com
