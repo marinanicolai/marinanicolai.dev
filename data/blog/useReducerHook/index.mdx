@@ -1,0 +1,24 @@
+---
+title: useReducer() Hook
+publishedAt: 2021-06-04
+summary: In this article I am going to explain the useReducer React Hook
+coverImage: ./hook.png
+---
+
+When our state logic becomes more complicated, we are going to need to ensure that we keep the
+state consistent. In order to do so, we should use a Reducer Hook instead of multiple State Hooks,
+because it is harder to maintain synchronicity between multiple State Hooks that depend on each other.
+
+The signature for the useReducer hook is as follows:
+
+```
+[]reduce(render, initialState)
+
+const [state, dispatch] = useReducer(reducer, initialState)
+
+function reducer (state, value) {
+    return state + value
+}
+...
+displatch(1)
+```
