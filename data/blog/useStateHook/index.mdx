@@ -1,0 +1,48 @@
+---
+title: useState() Hook
+publishedAt: 2021-06-04
+summary: In this article I am going to explain the useState React Hook
+coverImage: ./hook.png
+---
+
+useState() function returns an array with two elements:
+
+- The current state
+- A setter function to set the state
+
+In our React projects we use this line of code:
+
+```
+const [name, setName] = useState('')
+```
+
+which is equivalent with
+
+```
+const nameHook = useState('')
+const name = nameHook[0]
+const setName = nameHook[1]
+
+```
+
+Now we define the input handler function, where we make use of the setName setter function.
+
+```
+function handleChange (evt) {
+setName(evt.target.value)
+}
+```
+
+Then we render user interface by returning it from the function. Then we export the function component.
+
+```
+return (
+    <div>
+       <h1>My name is: {name} </h1>
+       <input type="text" value={name} onChange={handleChange} />
+    </div>
+)
+}
+
+export default MyName
+```
