@@ -17,12 +17,7 @@ export default function Toolbox() {
   return (
     <>
       <Layout>
-        <ul>
-        <li><h3>[CompTia Security +](link-to-the-photo)</h3></li>
-        <li><h3>[NOVA web development and design](link-to-the-photo) </h3></li>
-        <li><h3> [Udemy: JavaScript:Understanding the weird parts](link-to-the-photo) </h3></li>
-       <li><h3> [Udemy: JavaScript Algorithms and Data Structures Masterclass](link-to-the-photo) </h3></li>
-       </ul>
+    <h1>this is the project page</h1>
       </Layout>
     </>
   );
