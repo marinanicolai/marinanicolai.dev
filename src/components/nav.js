@@ -17,6 +17,9 @@ const Nav = () => (
         <Link className="cursor-pointer" to="/about">
           About
         </Link>
+        <Link className="cursor-pointer" to="/projects">
+          Projects
+        </Link>
         <Link className="cursor-pointer" to="/blog">
           Blog
         </Link>
