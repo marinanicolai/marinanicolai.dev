@@ -29,7 +29,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-remark-images`,
@@ -103,14 +102,6 @@ module.exports = {
             title: `Marina Nicolai's Blog`,
           },
         ],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        host: 'https://MarinaNicolai.dev/',
-        sitemap: 'https://MarinaNicolai.dev/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {

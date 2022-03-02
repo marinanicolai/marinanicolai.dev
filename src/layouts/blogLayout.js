@@ -107,7 +107,7 @@ export const query = graphql`
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
           }
-        }        
+        }
       }
       body
       timeToRead
