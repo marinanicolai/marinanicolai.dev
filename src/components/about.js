@@ -11,7 +11,7 @@ const AboutSection = () => (
     </p>
     <div className="text-coolGray-600 dark:text-coolGray-400 prose leading-6 mb-6">
       <p>
-        I’m Marina, a junior front-end developer, creative coder and
+        I’m Marina, front-end developer, creative coder and
         self-proclaimed designer who has a passion for the front-end spectrum.
       </p>
       <p>
