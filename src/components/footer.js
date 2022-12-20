@@ -53,7 +53,7 @@ const Footer = () => (
                 </li>
                 <li>
                   <a
-                    href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2610ad01-bab0-4840-992c-08405ce9d4ee/MNicolaiApril.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210413T150418Z&X-Amz-Expires=86400&X-Amz-Signature=d85f4067356695d9b64f4faf780308b0f2fe5f30571dabcc6d910f22bb87ec71&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MNicolaiApril.pdf%22"
+                    href="https://docs.google.com/document/d/1g0uww92sw99Wtxqvqx3U0g1ThE4K7NpyVdala-dGUYM/edit?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
