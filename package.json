@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd -f .env.development gatsby develop",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
