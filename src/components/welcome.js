@@ -6,9 +6,9 @@ const WelcomeSection = () => (
     <div className=" flex justify-between items-center relative">
       <div className=" w-full space-y-8 md:flex-row-reverse md:justify-between">
         <div className="text-left">
-        <StaticImage
+          <StaticImage
             className="mt-8 mb-16 ml-3 rounded-full h-36 w-36 ring-4 ring-offset-8 ring-offset-white dark:ring-offset-coolGray-900 ring-teal-500 dark:ring-teal-400 select-none"
-            src="../assets/avatar.jpg"            
+            src="../assets/avatar.jpg"
             placeholder="blurred"
           />
           <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-teal-500 dark:text-teal-400 mb-3">
@@ -18,9 +18,16 @@ const WelcomeSection = () => (
             I'm Marina.
           </h1>
           <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6">
-            I'm a junior full stack engineer with a passion for everything
-            front-end. Welcome to my corner of the internet. I'm glad you're
-            here!
+            My journey into becoming a Front-end developer began when I noticed
+            that some websites are a pleasure to use whereas others felt
+            confusing and difficult. I wanted to understand who builds them and
+            how they are built. This is when my journey into front-end
+            development began. I went from initially being self-taught to
+            completing a Computer Science degree and then becoming a freelance
+            developer. I have now decided to seek a full-time permanent role
+            where I can learn from senior developers and contribute to a
+            development team.My goal is to guide and teach junior web developers
+            in 5 years joining the company.
           </p>
         </div>
       </div>

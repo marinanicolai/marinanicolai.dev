@@ -64,3 +64,8 @@ body {
 .project-links {
 display:flex;
 }
+
+.select-none {
+  width:200px;
+  height:325px;
+}
