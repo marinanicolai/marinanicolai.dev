@@ -5,7 +5,7 @@ import {
   FaCodepen,
   FaLinkedin,
   FaGithub,
-  FaRss,
+  FaRss
 } from 'react-icons/fa';
 
 const Footer = () => (
@@ -63,10 +63,10 @@ const Footer = () => (
                 </li>
               </ul>
             </div>
-            </div>
           </div>
-          <div className="md:grid md:grid-cols-2 md:gap-8" />
         </div>
+        <div className="md:grid md:grid-cols-2 md:gap-8" />
+      </div>
     </div>
 
     <div className="mt-2 py-8 px-4 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between">
@@ -79,7 +79,7 @@ const Footer = () => (
         </a>
 
         <a
-          href="https://github.com/MarinaNicolai"
+          href="https://github.com/MarinaNicolaiM"
           className="text-gray-400 hover:text-gray-500"
         >
           <span className="sr-only">GitHub</span>
