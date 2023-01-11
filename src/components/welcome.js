@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
@@ -11,11 +12,8 @@ const WelcomeSection = () => (
             src="../assets/avatar.jpg"
             placeholder="blurred"
           />
-          <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-teal-500 dark:text-teal-400 mb-3">
-            Hey there,
-          </h2>
           <h1 className="text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
-            I'm Marina.
+            I'm Marina, front-end developer from Montross, VA!
           </h1>
           <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6">
             My journey into becoming a Front-end developer began when I noticed
