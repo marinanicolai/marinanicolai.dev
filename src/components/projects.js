@@ -16,7 +16,7 @@ const ProjectsSection = () => (
         <div className="p-6 md:p-10 flex flex-col-reverse ">
           <div className="mt-8 md:max-w-lg">
             <p className="text-2xl lg:text-3xl font-extrabold text-coolGray-900 dark:text-white mb-2">
-              project one
+              Photo Gallery App
             </p>
             <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6 mb-3">
               <ul>

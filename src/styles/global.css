@@ -69,3 +69,7 @@ display:flex;
   width:200px;
   height:325px;
 }
+
+.bg-white {
+  color:red;
+}

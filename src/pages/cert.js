@@ -12,7 +12,7 @@ export default function Toolbox() {
     <>
       <Layout>
         <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-orange-600 dark:text-orange-500 mb-3">
-          Certifications:
+          Education:
         </h2>
         <ul>
           <li>
@@ -54,6 +54,16 @@ export default function Toolbox() {
               className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
             >
               Javascript Algorithms and Data Structures
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/certificate/UC-defe037f-2c07-4d9e-8ebf-972c179499be/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
+            >
+              CompTia Security+ Certification(SYO-501)
             </a>
           </li>
         </ul>
