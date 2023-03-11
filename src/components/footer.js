@@ -55,17 +55,17 @@ const Footer = () => (
                   </Link>
                 </StyledItem>
 
-                <StyledItem>
+                {/* <StyledItem>
                   <Link
                     className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
                     to="/blog"
                   >
                     Blog
                   </Link>
-                </StyledItem>
+                </StyledItem> */}
                 <StyledItem>
                   <a
-                    href="https://docs.google.com/document/d/1g0uww92sw99Wtxqvqx3U0g1ThE4K7NpyVdala-dGUYM/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1mNBRub8M3t2bJ5RMne02pBPLrc0ZAg1i_W_Jro3AqjE/edit"
                     target="_blank"
                     rel="noreferrer"
                     className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"

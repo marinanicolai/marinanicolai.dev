@@ -3,7 +3,6 @@ import SEO from 'react-seo-component';
 import Layout from '~layouts/mainLayout';
 import WelcomeSection from '~components/welcome';
 import ProjectsSection from '~components/projects';
-import BlogSection from '~components/blog';
 import { useSiteMetadata } from '~hooks/useSiteMetadata';
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
     siteUrl,
     siteLanguage,
     siteLocale,
-    twitterUsername
+    twitterUsername,
   } = useSiteMetadata();
   return (
     <>
@@ -32,7 +31,6 @@ export default function Home() {
       />
       <Layout>
         <WelcomeSection />
-        {/* <BlogSection /> */}
         <ProjectsSection />
       </Layout>
     </>

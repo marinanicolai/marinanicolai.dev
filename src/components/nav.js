@@ -14,18 +14,26 @@ const Nav = () => (
         <Link className="cursor-pointer" to="/">
           Home
         </Link>
-        <Link className="cursor-pointer" to="/about">
+        {/* <Link className="cursor-pointer" to="/about">
           About
-        </Link>
+        </Link> */}
         <Link className="cursor-pointer" to="/projects">
           Projects
         </Link>
-        <Link className="cursor-pointer" to="/blog">
+        {/* <Link className="cursor-pointer" to="/blog">
           Blog
-        </Link>
+        </Link> */}
         <Link className="cursor-pointer" to="/cert">
           Education
         </Link>
+        <a
+          href="https://docs.google.com/document/d/1mNBRub8M3t2bJ5RMne02pBPLrc0ZAg1i_W_Jro3AqjE/edit"
+          target="_blank"
+          rel="noreferrer"
+          className="text-base text-coolGray-600 dark:text-coolGray-400 hover:text-gray-900"
+        >
+          <Link className="cursor-pointer">Resume</Link>
+        </a>
         <Toggle />
       </div>
     </div>

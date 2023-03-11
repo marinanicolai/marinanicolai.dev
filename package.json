@@ -47,6 +47,7 @@
     "prism-react-renderer": "^1.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
@@ -69,6 +70,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gatsby-remark-code-buttons": "^2.0.7",
     "husky": "^4.3.0",
     "prettier": "^2.1.2"
   },

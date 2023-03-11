@@ -13,19 +13,16 @@ const WelcomeSection = () => (
             placeholder="blurred"
           />
           <h1 className="text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
-            I'm Marina, front-end developer from Montross, VA!
+            Hello! I'm <span>Marina</span>,
           </h1>
           <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6">
-            My journey into becoming a Front-end developer began when I noticed
-            that some websites are a pleasure to use whereas others felt
-            confusing and difficult. I wanted to understand who builds them and
-            how they are built. This is when my journey into front-end
-            development began. I went from initially being self-taught to
-            completing a Computer Science degree and then becoming a freelance
-            developer. I have now decided to seek a full-time permanent role
-            where I can learn from senior developers and contribute to a
-            development team.My goal is to guide and teach junior web developers
-            in 5 years joining the company.
+            I’m a educator and a <span>front end developer</span>. I create{' '}
+            <span>React.js</span>, Node.js and WordPress applications for your
+            business or organization. My experience coding responsive and
+            engaging user interfaces <span>(from wireframe to deployment)</span>{' '}
+            and teamwork attitude are my greatest assets. I look forward to
+            combining my software engineering skills with my teaching ability
+            and experience. Welcome to my website!
           </p>
         </div>
       </div>

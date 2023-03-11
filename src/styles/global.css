@@ -5,7 +5,9 @@
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
-
+span {
+  color : rgba(249, 115, 22, var(--tw-text-opacity));
+}
 /* Portfolio Styles */
 
 .sticky-nav {
@@ -72,4 +74,10 @@ display:flex;
 
 .bg-white {
   color:red;
+}
+
+.tv {
+  width: 25px;
+    height: 25px;
+    margin-right: 15px;
 }

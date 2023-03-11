@@ -7,14 +7,8 @@ import TimelineSection from '~components/timeline';
 import { useSiteMetadata } from '~hooks/useSiteMetadata';
 
 export default function Toolbox() {
-  const {
-    title,
-    image,
-    siteUrl,
-    siteLanguage,
-    siteLocale,
-    twitterUsername,
-  } = useSiteMetadata();
+  const { title, image, siteUrl, siteLanguage, siteLocale, twitterUsername } =
+    useSiteMetadata();
   return (
     <>
       <SEO
