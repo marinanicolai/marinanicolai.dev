@@ -70,14 +70,53 @@ display:flex;
 .select-none {
   width:200px;
   height:325px;
+  margin: auto;
+  border-radius: 15px;
+  padding-bottom:10px;
 }
 
 .bg-white {
-  color:red;
+  color:black;
 }
 
 .tv {
   width: 25px;
-    height: 25px;
-    margin-right: 15px;
+  height: 25px;
+  margin-right: 15px;
+}
+.highlight-on-hover{
+  transition: transform 0.2s;
+  position: relative;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+.highlight-on-hover:hover {
+  box-shadow: 0 15px 55px 5px rgba(0, 0, 0, 0.15);
+  transform: translateY(-7px);
+  text-decoration: none;
+  transition: transform 0.5s;
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid grey;
+  padding: 2%;
+  background-color: #e2e7f7;
+}
+
+.title {
+  margin:auto;
+  color : rgba(249, 115, 22, var(--tw-text-opacity));
+  font-weight: 600; 
+}
+
+.p20 {
+  padding-top:20px;
 }

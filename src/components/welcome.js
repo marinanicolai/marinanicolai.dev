@@ -12,7 +12,7 @@ const WelcomeSection = () => (
             src="../assets/avatar.jpg"
             placeholder="blurred"
           />
-          <h1 className="text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
+          <h1 className="p20 text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
             Hello! I'm <span>Marina</span>,
           </h1>
           <p className="text-coolGray-600 dark:text-coolGray-400 prose leading-6">

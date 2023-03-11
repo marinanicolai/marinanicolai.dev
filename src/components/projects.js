@@ -60,12 +60,13 @@ const ProjectsSection = () => (
               </a>
             </div>
           </div>
-          <div>
+          <div className="card highlight-on-hover">
             <img
               className="select-none"
               src={FirstProjectImage}
               alt="firstprojectimg"
             />
+            <p className="title">Photo app</p>
           </div>
         </div>
       </li>
