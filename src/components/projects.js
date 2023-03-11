@@ -37,7 +37,7 @@ const ProjectsSection = () => (
                 rel="noreferrer"
               >
                 <div className="inline-flex text-base sm:text-lg lg:text-base xl:text-lg font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-orange-600 hover:text-orange-700 dark:text-orange-500 dark:hover:text-orange-400 mt-2">
-                  <img className="select-none tv" src={TvImage} alt="tvimg" />
+                  <img className="tv" src={TvImage} alt="tvimg" />
                   <p>Visit the site</p>
                 </div>
               </a>
@@ -50,11 +50,7 @@ const ProjectsSection = () => (
                 rel="noreferrer"
               >
                 <div className="inline-flex text-base sm:text-lg lg:text-base xl:text-lg font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-orange-600 hover:text-orange-700 dark:text-orange-500 dark:hover:text-orange-400 mt-2">
-                  <img
-                    className="select-none tv"
-                    src={GithubImage}
-                    alt="tvimg"
-                  />
+                  <img className="tv" src={GithubImage} alt="github-img" />
                   <p>Code source</p>
                 </div>
               </a>
