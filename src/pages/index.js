@@ -15,7 +15,7 @@ export default function Home() {
     siteUrl,
     siteLanguage,
     siteLocale,
-    twitterUsername,
+    twitterUsername
   } = useSiteMetadata();
   return (
     <>
@@ -32,7 +32,7 @@ export default function Home() {
       />
       <Layout>
         <WelcomeSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
         <ProjectsSection />
       </Layout>
     </>
