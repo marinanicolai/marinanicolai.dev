@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Logo from '~assets/logo-2.png';
 import Toggle from '~components/toggle';
 
 const Nav = () => (
@@ -7,7 +8,7 @@ const Nav = () => (
     <div className="flex justify-between items-center max-w-4xl w-full">
       <div className="text-gray-900 dark:text-gray-100 font-semibold">
         <Link className="cursor-pointer" to="/">
-          Marina Nicolai
+          <img className="logo" src={Logo} alt="logo" />
         </Link>
       </div>
       <div className="flex items-center space-x-4 justify-evenly text-gray-900 dark:text-gray-100">

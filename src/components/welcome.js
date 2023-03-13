@@ -8,7 +8,7 @@ const WelcomeSection = () => (
       <div className=" w-full space-y-8 md:flex-row-reverse md:justify-between">
         <div className="text-left">
           <StaticImage
-            className="mt-8 mb-16 ml-3 rounded-full h-36 w-36 ring-4 ring-offset-8 ring-offset-white dark:ring-offset-coolGray-900 ring-teal-500 dark:ring-teal-400 select-none"
+            className="ml-15 mt-8 mb-16 ml-3 rounded-full h-36 w-36 ring-4 ring-offset-8 ring-offset-white dark:ring-offset-coolGray-900 ring-teal-500 dark:ring-teal-400 select-none"
             src="../assets/avatar.jpg"
             placeholder="blurred"
           />
