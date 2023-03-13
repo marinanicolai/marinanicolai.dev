@@ -128,3 +128,52 @@ display:flex;
 .ml-15 {
   margin-left: 15px;
 }
+
+/* webdevicons.js styling */
+.icons-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+  width: 95vw;
+  padding-bottom: 2%;
+  color: #606060;
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons-row-container {
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, 0.25);
+  text-align: center;
+  background-color: #e2e7f7;
+  margin-top: 30px;
+  border-radius: 9px;
+}
+
+.dev-icons {
+  font-size: 250%;
+}
+
+
+
+
+
+
+  .dev-icons {
+    font-size: 200%;
+    margin-left: 20%;
+  }
+.icons-list{
+  display: flex;
+}
+
+.li-icon {
+  padding: 5px 15px;
+}
+
+.web-icons{
+  margin:auto;
+  width: 50px;
+  padding: 5px;
+}
+

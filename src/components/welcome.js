@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import DevIconsSection from '~components/webdevicons';
 
 const WelcomeSection = () => (
   <section className="mb-24">
@@ -12,6 +13,7 @@ const WelcomeSection = () => (
             src="../assets/avatar.jpg"
             placeholder="blurred"
           />
+          <DevIconsSection />
           <h1 className="p20 text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
             Hello! I'm <span>Marina</span>,
           </h1>
