@@ -1,16 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import {
-  FaTwitter,
-  FaCodepen,
-  FaLinkedin,
-  FaGithub,
-  FaRss
-} from 'react-icons/fa';
+import { FaTwitter, FaCodepen, FaLinkedin, FaGithub } from 'react-icons/fa';
+
 const FooterNav = styled.footer`
   color: red;
-  background-color: yellow;
+  background-color: white;
 `;
 
 const StyledList = styled.ul`
