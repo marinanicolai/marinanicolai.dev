@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 span {
-  color : rgba(249, 115, 22, var(--tw-text-opacity));
+  color: rgba(249, 115, 22, var(--tw-text-opacity));
 }
 /* Portfolio Styles */
 
@@ -44,7 +44,7 @@ span {
 
 /* the dark svg pattern */
 .dark .paint__wrapper-pattern {
-  background-image: url("../assets/brush_strokes_dark.svg");
+  background-image: url('../assets/brush_strokes_dark.svg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -57,26 +57,26 @@ span {
 
 /* the light svg pattern */
 .light .paint__wrapper-pattern {
-  background-image: url("../assets/brush_strokes_light.svg");
+  background-image: url('../assets/brush_strokes_light.svg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
 .project-links {
-display:flex;
+  display: flex;
 }
 
 .select-none {
-  width:200px;
-  height:325px;
+  width: 200px;
+  height: 325px;
   margin: auto;
   border-radius: 15px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .bg-white {
-  color:black;
+  color: black;
 }
 
 .tv {
@@ -87,7 +87,7 @@ display:flex;
 .logo {
   width: 125px;
 }
-.highlight-on-hover{
+.highlight-on-hover {
   transition: transform 0.2s;
   position: relative;
   -webkit-transition: transform 0.2s;
@@ -116,13 +116,13 @@ display:flex;
 }
 
 .title {
-  margin:auto;
-  color : rgba(249, 115, 22, var(--tw-text-opacity));
-  font-weight: 600; 
+  margin: auto;
+  color: rgba(249, 115, 22, var(--tw-text-opacity));
+  font-weight: 600;
 }
 
 .p20 {
-  padding-top:20px;
+  padding-top: 20px;
 }
 
 .ml-15 {
@@ -154,16 +154,15 @@ display:flex;
   font-size: 250%;
 }
 
+.intro {
+  margin-left: 25px;
+}
 
-
-
-
-
-  .dev-icons {
-    font-size: 200%;
-    margin-left: 20%;
-  }
-.icons-list{
+.dev-icons {
+  font-size: 200%;
+  margin-left: 20%;
+}
+.icons-list {
   display: flex;
 }
 
@@ -171,9 +170,8 @@ display:flex;
   padding: 5px 15px;
 }
 
-.web-icons{
-  margin:auto;
+.web-icons {
+  margin: auto;
   width: 50px;
   padding: 5px;
 }
-

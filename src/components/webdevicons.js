@@ -7,6 +7,7 @@ import Bootstrap from '~assets/bootstrap.png';
 import WordPress from '~assets/wordpress-logo.png';
 import GitHub from '~assets/github.png';
 import Node from '~assets/nodejs.png';
+import Vite from '~assets/vite-logo.png';
 
 const WebDevIcons = () => (
   <>
@@ -35,6 +36,9 @@ const WebDevIcons = () => (
         </li>
         <li className="li-icon">
           <img className="web-icons" src={Node} alt="node-img" />
+        </li>
+        <li className="li-icon">
+          <img className="web-icons" src={Vite} alt="node-img" />
         </li>
       </ul>
     </div>
