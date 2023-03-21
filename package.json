@@ -54,6 +54,7 @@
     "react-marquee-slider": "^1.1.2",
     "react-reveal": "^1.2.2",
     "react-seo-component": "^2.0.2",
+    "reactstrap": "^9.1.6",
     "styled-components": "^5.2.1",
     "tailwindcss": "^2.0.1"
   },
