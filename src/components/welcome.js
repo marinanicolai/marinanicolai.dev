@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const WelcomeSection = () => (
   <section className="mb-24">
-    <div className=" flex justify-between items-center relative">
+    <div className="flex justify-between items-center relative">
       {/* <div className=" w-full space-y-8 md:flex-row-reverse md:justify-between"> */}
       <div className="text-left">
         <Fade left duration={2000}>

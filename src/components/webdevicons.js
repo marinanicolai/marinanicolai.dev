@@ -9,14 +9,13 @@ import GitHub from '~assets/github.png';
 import Node from '~assets/nodejs.png';
 import Vite from '~assets/vite-logo.png';
 import { UncontrolledTooltip } from 'reactstrap';
-import { orange } from 'tailwindcss/colors';
 
 const orangeStyling = {
   backgroundColor: 'rgba(249, 115, 22, var(--tw-text-opacity))',
   color: 'white',
   fontSize: '16px',
   fontWeight: 'bold',
-  padding: '10px'
+  padding: '10px',
 };
 
 function WebDevIcons() {
