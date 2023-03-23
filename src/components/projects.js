@@ -6,7 +6,7 @@ import GithubImage from '~assets/github.svg';
 const ProjectsSection = () => (
   <section className="mb-24">
     <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-orange-600 dark:text-orange-500 mb-3">
-      Code Samples
+      Projects
     </h2>
     {/* <div className="text-coolGray-900 dark:text-white text-3xl sm:text-5xl lg:text-5xl leading-none font-extrabold tracking-tight mb-4">
       <p className="mb-2">I like to build things.</p>
